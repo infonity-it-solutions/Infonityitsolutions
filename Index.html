@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Star Academy</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #003366;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #0055a5;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .hero {
+      background: url('https://images.pexels.com/photos/256401/pexels-photo-256401.jpeg') no-repeat center center/cover;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+    }
+    .hero h1 {
+      font-size: 48px;
+    }
+    .section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #003366;
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      flex: 1 1 250px;
+      text-align: center;
+    }
+    footer {
+      background: #003366;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Star Academy</h1>
+    <p>A Place Where Learning Shines Bright</p>
+  </header>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#about">About</a>
+    <a href="#academics">Academics</a>
+    <a href="#facilities">Facilities</a>
+    <a href="#admissions">Admissions</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="hero">
+    <h1>Welcome to Star Academy</h1>
+  </div>
+
+  <section class="section" id="about">
+    <h2>About Us</h2>
+    <p>Star Academy is dedicated to nurturing young minds through holistic, value-based education in a secure and inspiring environment.</p>
+  </section>
+
+  <section class="section" id="academics">
+    <h2>Academics</h2>
+    <div class="cards">
+      <div class="card">Pre-Primary</div>
+      <div class="card">Primary</div>
+      <div class="card">Middle School</div>
+      <div class="card">Senior Secondary</div>
+    </div>
+  </section>
+
+  <section class="section" id="facilities">
+    <h2>Facilities</h2>
+    <div class="cards">
+      <div class="card">Smart Classrooms</div>
+      <div class="card">Library</div>
+      <div class="card">Computer Lab</div>
+      <div class="card">Transport</div>
+      <div class="card">Playground</div>
+      <div class="card">CCTV Security</div>
+    </div>
+  </section>
+
+  <section class="section" id="admissions">
+    <h2>Admissions</h2>
+    <p>Admissions Open for 2025–26. Visit our campus or apply online. We welcome every learner with open arms!</p>
+  </section>
+
+  <section class="section" id="gallery">
+    <h2>Gallery</h2>
+    <p>Photos from School Life – Events, Activities & Memories</p>
+    <!-- Placeholder for gallery images -->
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Address:</strong> Behind City Mall, Gorakhpur</p>
+    <p><strong>Phone:</strong> +91 98765 43210</p>
+    <p><strong>Email:</strong> staracademy@email.com</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Star Academy. All rights reserved.
+  </footer>
+</body>
+</html>
